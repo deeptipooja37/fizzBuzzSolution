@@ -25,15 +25,16 @@ Dependendies used
 	Junit5 for testing => come with jupiter engine and jupiter api
 	json-simple => for JSON manipulation
 
-Approach used - 
+Approach used -
+
 	1. Spent most of time on test case and Designing.
 	2. TestCases - Have written around 20 test cases
-			a. Written an automated utility(FizzBuzzJSON_Test) to ceate random JSON input file to test the logic
-			b. Was trying to use more new features like repeat and nested from Junit5
-			c. Code design has been keeping SOLID principles in mind, 
-				I. FileInputOutputHandler is responsible for parsing input and output console.
-				II. FizzBuzzValidator is responsible for managing the request, processing it and giving result on demand.
-			d. Test cases has been moduled into few category 
-				I. AutomatedTest_NegativeCase_FizzBuzzValidationLogicTest & AutomatedTest_PositiveCase_FizzBuzzValidationLogicTest for automated test cases
-				II. Invalid parameter test cases has been added.
-				III. A list of invalid file test cases has been added.
+		a. Written an automated utility(FizzBuzzJSON_Test) to ceate random JSON input file to test the logic
+		b. Was trying to use more new features like repeat and nested from Junit5
+		c. Code design has been keeping SOLID principles in mind, 
+			I. FileInputOutputHandler is responsible for parsing input and output console.
+			II. FizzBuzzValidator is responsible for managing the request, processing it and giving result on demand.
+		d. Test cases has been moduled into few category 
+			I. AutomatedTest_NegativeCase_FizzBuzzValidationLogicTest & AutomatedTest_PositiveCase_FizzBuzzValidationLogicTest for automated test cases
+			II. Invalid parameter test cases has been added.
+			III. A list of invalid file test cases has been added.
