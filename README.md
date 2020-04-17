@@ -1,10 +1,6 @@
 # fizzBuzzSolution
 Solution to the fizzBuzz Problem, where input is a JSON file and need to be varified as valid FizzBuzz String.
 
-/**
-* update file extensions and remove sufix .tmp for executables.
-*/
-
 Attached are two executables and the running project archive named follwoing
 
 	fizzBuzzSolution-0.0.1-SNAPSHOT-jar-with-dependencies.jar is independent and has dependencies included inside the jar file.
