@@ -12,8 +12,10 @@ Attached are two executables and the running project archive named follwoing
 	dshukla.fizzBuzzSolution.jar
 
 How to use these files - 
-	To import the project source code, one can import the following project to some IDE and run it
-	To test executable one can use following command
+
+	To import the project source and run and build it using install command(includes test run as well through command line)
+		mvn install 
+	To test executable jar one can use following command, provide sample json file path as parameter
 		java -jar fizzBuzzSolution-0.0.1-SNAPSHOT-jar-with-dependencies.jar  C:\resources\SampleJSON_valid.json
 
 
