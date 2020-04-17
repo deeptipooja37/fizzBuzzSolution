@@ -20,9 +20,10 @@ How to use these files -
 
 
 Dependendies used 
-Maven => as build tool
-Junit5 for testing => come with jupiter engine and jupiter api
-json-simple => for JSON manipulation
+
+	Maven => as build tool
+	Junit5 for testing => come with jupiter engine and jupiter api
+	json-simple => for JSON manipulation
 
 Approach used - 
 	1. Spent most of time on test case and Designing.
